@@ -6,7 +6,11 @@ const config: StorybookConfig = {
     '@storybook/addon-essentials',
     '@storybook/addon-interactions',
     '@storybook/addon-styling',
+    '@chakra-ui/storybook-addon',
   ],
+  features: {
+    emotionAlias: false,
+  },
   framework: {
     name: '@storybook/react-vite',
     options: {
