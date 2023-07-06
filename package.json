@@ -1,7 +1,7 @@
 {
-  "name": "vite-component-library-template",
+  "name": "react-devtool-kit",
   "private": false,
-  "version": "2.0.0",
+  "version": "1.0.0",
   "packageManager": "pnpm@8.4.0",
   "main": "./dist/vite-component-library-template.umd.js",
   "module": "./dist/vite-component-library-template.es.js",
@@ -26,10 +26,6 @@
     "test:cov": "vitest run --coverage",
     "prepare": "husky install",
     "prepack": "json -f package.json -I -e \"delete this.devDependencies; delete this.dependencies\""
-  },
-  "dependencies": {
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
   },
   "devDependencies": {
     "@babel/core": "7.22.5",
@@ -65,6 +61,8 @@
     "postcss": "8.4.24",
     "prettier": "2.8.8",
     "prop-types": "15.8.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "storybook": "7.0.23",
     "tailwindcss": "3.3.2",
     "typescript": "5.1.3",
